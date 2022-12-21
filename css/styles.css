@@ -1,7 +1,6 @@
 * {
     text-decoration: none;
     list-style: none;
-
 }
 
 section {
@@ -20,7 +19,6 @@ h1 {
     margin-right: auto;
     padding-left: 35px;
     padding-right: 35px;
-
 }
 
 .header {
@@ -99,7 +97,6 @@ h1 {
 
 .services__item:last-child {
     padding-right: 0;
-
 }
 
 .services__item--link {
@@ -109,7 +106,6 @@ h1 {
     text-align: center;
     letter-spacing: 0.48px;
     color: #000000;
-
 }
 
 .hero {
@@ -123,7 +119,7 @@ h1 {
 }
 
 .hero__first-name {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-size: 70px;
@@ -135,7 +131,7 @@ h1 {
 }
 
 .hero__first-about {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -155,34 +151,30 @@ h1 {
     border: 1px solid black;
     width: 262px;
     text-align: center;
-    background: #FFFFFF;
+    background: #ffffff;
     margin-bottom: 12px;
 }
 
 .hero__button-name {
-
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
     /* identical to box height, or 112% */
     letter-spacing: 0.48px;
-    color: #9F4A19;
-
+    color: #9f4a19;
 }
 
 .hero__button-about {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
     margin-left: 63px;
     /* identical to box height, or 129% */
-
     letter-spacing: 0.48px;
-
     color: #808080;
 }
 
@@ -193,19 +185,17 @@ h1 {
 }
 
 .demand__name {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     padding-top: 20px;
     padding-bottom: 21px;
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 43px;
     margin: 0;
     /* identical to box height, or 136% */
-
     text-align: center;
-
     color: #000000;
 }
 
@@ -213,5 +203,76 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
 
+.find__name {
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 7px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    /* identical to box height, or 136% */
+    margin: 0;
+    text-align: center;
+    color: #000000;
+}
+
+.find__name-about {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    margin: 0;
+    text-align: center;
+    padding-bottom: 22px;
+    color: #000000;
+}
+
+.find__format {
+    display: flex;
+}
+
+.find__img {
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 37px;
+}
+
+.find__table {
+    padding-left: 0;
+    margin-top: 80px;
+    margin-left: 108px;
+}
+
+.find__table-next {
+    margin-top: 80px;
+    margin-left: 89px;
+}
+
+.find__table-item {
+    display: flex;
+    align-items: baseline;
+}
+
+.find__table-item-check {
+    Width: 29.27px;
+    Height: 19.65px;
+
+}
+
+.find__table-item-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    margin: 0 0 46px 25.6px;
+    /* identical to box height, or 100% */
+    color: #000000;
 }
