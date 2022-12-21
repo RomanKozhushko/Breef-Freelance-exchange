@@ -3,11 +3,13 @@
     list-style: none;
 
 }
-section{
+
+section {
     margin: 0;
     padding: 0;
 }
-h1{
+
+h1 {
     margin: 0;
 }
 
@@ -104,3 +106,27 @@ h1{
     color: #000000;
 
 }
+.hero__first{
+    width: 424px;
+}
+.hero__first-name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 70px;
+    /* or 100% */
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.hero__first-about{font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+/* or 140% */
+
+letter-spacing: 0.82px;
+
+color: #000000;}
