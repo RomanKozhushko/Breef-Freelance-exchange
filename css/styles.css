@@ -96,9 +96,10 @@ h1 {
     padding-top: 11px;
     padding-bottom: 15px;
 }
+
 .services__item:last-child {
     padding-right: 0;
-    
+
 }
 
 .services__item--link {
@@ -109,6 +110,11 @@ h1 {
     letter-spacing: 0.48px;
     color: #000000;
 
+}
+
+.hero {
+    display: flex;
+    border-bottom: 1px solid black;
 }
 
 .hero__first {
@@ -139,11 +145,11 @@ h1 {
     color: #000000;
 }
 
-.hero__buttons{
-padding-left: 0;
+.hero__buttons {
+    padding-left: 0;
 }
 
-.hero__button{
+.hero__button {
     padding-top: 11px;
     padding-bottom: 13px;
     border: 1px solid black;
@@ -154,7 +160,7 @@ padding-left: 0;
 }
 
 .hero__button-name {
- 
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -163,7 +169,7 @@ padding-left: 0;
     /* identical to box height, or 112% */
     letter-spacing: 0.48px;
     color: #9F4A19;
-    
+
 }
 
 .hero__button-about {
@@ -178,4 +184,34 @@ padding-left: 0;
     letter-spacing: 0.48px;
 
     color: #808080;
+}
+
+.demand {
+    padding-bottom: 96px;
+    padding-top: 96px;
+    background: #f9f7f3;
+}
+
+.demand__name {
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 21px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    margin: 0;
+    /* identical to box height, or 136% */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.demand__img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
