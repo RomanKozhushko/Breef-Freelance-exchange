@@ -220,6 +220,8 @@ h1 {
     color: #000000;
 }
 
+
+
 .find__name-about {
     font-family: 'Roboto';
     font-style: normal;
@@ -275,4 +277,39 @@ h1 {
     margin: 0 0 46px 25.6px;
     /* identical to box height, or 100% */
     color: #000000;
+}
+
+.breef__name {
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 7px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    /* identical to box height, or 136% */
+    margin: 0;
+    text-align: center;
+    color: #000000;
+}
+
+.breef__name-about {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    margin: 0;
+    text-align: center;
+    padding-bottom: 22px;
+    color: #000000;
+}
+.breef__table{
+
+}
+
+.breef__table-item{
+
 }
