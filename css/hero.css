@@ -1,10 +1,33 @@
-.hero {}
 
 .hero__container {
     background-repeat: no-repeat;
     width: 1326px;
     height: 560px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/hero.jpg);
+
+}
+.hero__one {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/hero1.jpg);
+}
+
+.hero__two {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/hero2.jpg);
+}
+
+.hero__three {
+    background-image: linear-gradient(rgba(12, 245, 206, 0.582), rgba(173, 1, 173, 0.171)), url(../images/hero2.jpg);
+}
+
+.testimonials {
+    max-width: 1326px;
+    margin: auto;
+    padding: 15px;
+    position: relative;
+}
+
+.scroller {
+    overflow-x: hidden;
+    display: flex;
+    scroll-snap-type: x mandatory;
 }
 
 .hero__line {
@@ -31,3 +54,37 @@
     line-height: 36px;
     color: #FFFFFF;
 }
+.testimonials .btn {
+    position: absolute;
+    top: 40%;
+    height: 50px;
+    width: 50px;
+    border-radius:50%;
+    
+    z-index: 1;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.testimonials .btn:hover {
+    
+    cursor: pointer;
+}
+
+.testimonials .btn.next {
+    right: 35px;
+    background-repeat: no-repeat;
+    background-image: url(../images/right.png);
+}
+
+.testimonials .btn.prev {
+    left: 35px;
+    background-repeat: no-repeat;
+    background-image: url(../images/left.png);
+}
+.testimonials .btn:hover {
+    
+    cursor: pointer;
+}
+
