@@ -2,3 +2,13 @@
     text-decoration: none;
     list-style: none;
 }
+
+body{
+    font-family: 'Avenir', sans-serif;
+    font-style: normal;
+}
+.container{
+    width: 1326px;
+    margin-left: auto;
+    margin-right: auto;
+}

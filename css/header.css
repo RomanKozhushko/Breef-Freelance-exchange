@@ -1,0 +1,81 @@
+.header {}
+
+.header__container {
+    display: flex;
+}
+
+.header__logo {}
+
+.header__logo-span {
+    display: block;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 66px;
+    color: #22232B;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.header__nav {
+    align-content: center;
+}
+
+.header__nav--list {
+    display: flex;
+    margin: 0;
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
+.header__nav--item {
+    margin-left: 42px;
+}
+
+.header__nav--link {
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #22232B;
+}
+
+.header__active {
+    color: #00C98D;
+}
+
+.header__loginBasket--box {
+    display: flex;
+    margin: 27px 0 0 auto;
+}
+
+.header__basket {
+    margin-right: 42px;
+}
+
+.header__basket--img {
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+
+.header__basket--link {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.header__login {
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #22232B;
+}
+
+.header__login--link {
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #22232B;
+}
