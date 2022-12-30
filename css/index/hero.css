@@ -1,20 +1,20 @@
-
 .hero__container {
     background-repeat: no-repeat;
     width: 1326px;
     height: 560px;
 
 }
+
 .hero__one {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/hero1.jpg);
+    background-image: linear-gradient(rgba(0, 255, 234, 0.2), rgba(0, 0, 0, 0.2)), url(../../images/imagesIndex/hero1.jpg);
 }
 
 .hero__two {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/hero2.jpg);
+    background-image: linear-gradient(rgba(0, 255, 234, 0.2), rgba(0, 0, 0, 0.2)), url(../../images/imagesIndex/hero2.jpg);
 }
 
 .hero__three {
-    background-image: linear-gradient(rgba(12, 245, 206, 0.582), rgba(173, 1, 173, 0.171)), url(../images/hero2.jpg);
+    background-image: linear-gradient(rgba(0, 255, 234, 0.2), rgba(0, 0, 0, 0.2)), url(../../images/imagesIndex/hero1.jpg);
 }
 
 .testimonials {
@@ -26,7 +26,7 @@
 .scroller {
     overflow-x: hidden;
     display: flex;
-  }
+}
 
 .hero__line {
     padding-bottom: 105px;
@@ -51,7 +51,10 @@
     font-size: 26px;
     line-height: 36px;
     color: #FFFFFF;
+    /* border-bottom: 1px solid white; */
 }
+
+
 .testimonials .btn {
     position: absolute;
     top: 40%;
@@ -62,16 +65,15 @@
 .next {
     right: 35px;
     background-repeat: no-repeat;
-    background-image: url(../images/right.png);
+    background-image: url(../../images/imagesIndex/right.png);
 }
 
 .prev {
     left: 55px;
     background-repeat: no-repeat;
-    background-image: url(../images/left.png);
-}
-.btn:hover {
-    
-    cursor: pointer;
+    background-image: url(../../images/imagesIndex/left.png);
 }
 
+.btn:hover {
+    cursor: pointer;
+}
