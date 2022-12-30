@@ -55,33 +55,22 @@
 .testimonials .btn {
     position: absolute;
     top: 40%;
-    height: 50px;
+    height: 60px;
     width: 50px;
-    /* border-radius:50%;
-    
-    z-index: 1;
-    line-height: 30px;
-    text-align: center;
-    color: white;
-    font-weight: bold; */
-}
-.testimonials .btn:hover {
-    
-    cursor: pointer;
 }
 
-.testimonials .btn.next {
+.next {
     right: 35px;
     background-repeat: no-repeat;
     background-image: url(../images/right.png);
 }
 
-.testimonials .btn.prev {
+.prev {
     left: 55px;
     background-repeat: no-repeat;
     background-image: url(../images/left.png);
 }
-.testimonials .btn:hover {
+.btn:hover {
     
     cursor: pointer;
 }
